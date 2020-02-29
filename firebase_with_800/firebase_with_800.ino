@@ -68,15 +68,15 @@ SoftwareSerial SerialAT(2, 3); // RX, TX
 
 // Leave empty, if missing user or pass
 
-const char apn[]  = "m3-world";//"internet"
+const char apn[]  = "airtelgprs.com";//"internet"
 
-const char user[] = "mms";
+const char user[] = "";
 
-const char pass[] = "mms";
+const char pass[] = "";
 
 const char server[] = "https://electroserv-f596e.firebaseio.com";//this url of server
 
-const int  ssl_port     = 443;
+const int  ssl_port     = 8080;
 
 
 
