@@ -10,7 +10,7 @@
 
 
 
-#define PWR_MODEM_SIM800 PA8//2(Mega)
+//#define PWR_MODEM_SIM800 PA8//2(Mega)
 
 
 
@@ -28,13 +28,13 @@
 
 // what's the name of the hardware serial port?
 
-#define GPSSerial Serial2
+//#define GPSSerial Serial2
 
 
 
 // Connect to the GPS on the hardware port
 
-Adafruit_GPS GPS(&GPSSerial);
+//Adafruit_GPS GPS(&GPSSerial);
 
 
 
