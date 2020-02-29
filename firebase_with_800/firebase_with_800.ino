@@ -95,7 +95,6 @@ const int  ssl_port     = 443;
 
 
 #include <TinyGsmClient.h>
-
 #include <ArduinoHttpClient.h>
 
 #ifdef DUMP_AT_COMMANDS
